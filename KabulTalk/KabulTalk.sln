@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KabulTalk", "KabulTalk.csproj", "{ACB54EB4-DF46-42D3-BAFD-5FBB66347554}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfLib", "..\WpfLib\WpfLib.csproj", "{4E270153-F46C-4B38-8F23-A462CDDE231E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACB54EB4-DF46-42D3-BAFD-5FBB66347554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB54EB4-DF46-42D3-BAFD-5FBB66347554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB54EB4-DF46-42D3-BAFD-5FBB66347554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB54EB4-DF46-42D3-BAFD-5FBB66347554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E270153-F46C-4B38-8F23-A462CDDE231E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E270153-F46C-4B38-8F23-A462CDDE231E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E270153-F46C-4B38-8F23-A462CDDE231E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E270153-F46C-4B38-8F23-A462CDDE231E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6EDCF85-2311-4203-BA86-8F14C57C0D90}
+	EndGlobalSection
+EndGlobal
