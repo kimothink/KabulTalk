@@ -1,4 +1,5 @@
 ﻿
+using KabulTalk.ViewModels;
 using KabulTalk.Views;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -35,6 +36,10 @@ namespace KabulTalk
         private static IServiceProvider ConfigureServices()
         {
             var services = new ServiceCollection();
+            services.AddTransient<MainViewModel>();
+            services.AddTransient<LoginControlViewModel>();
+            services.AddTransient<SignupControlViewModel>();
+            services.AddTransient<ChangePwdControlViewModel>();
 
             //Services
             //services.AddSingleton<ITestService,TestService>();
