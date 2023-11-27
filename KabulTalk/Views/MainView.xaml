@@ -43,7 +43,7 @@
 
             <ContentControl Content="{Binding CurrentViewModel}"/>
             <StackPanel Grid.Row="1" Orientation="Horizontal">
-                <Button Content="로그인" Command="{Binding TologinCommand}"/>
+                <Button Content="로그인" Command="{Binding ToLoginCommand}"/>
                 <Button Content="비밀번호변경" Command="{Binding ToChangePwdCommand}"/>
                 <Button Content="회원가입" Command="{Binding ToSignupCommand}"/>
             </StackPanel>
