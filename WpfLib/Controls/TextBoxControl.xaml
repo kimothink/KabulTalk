@@ -15,7 +15,7 @@
         </Style>
         <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource BaseControl}">
             <Setter Property="Text" Value="{Binding WaterMarkText, ElementName=root}"/>
-            <Setter Property="Foreground" Value="{Binding WaterMarkText, ElementName=root}"/>
+            <Setter Property="Foreground" Value="{Binding WaterMarkTextColor, ElementName=root}"/>
 
             <Setter Property="Padding" Value="5 0 0 0 "/>
             <Setter Property="HorizontalAlignment" Value="Left"/>
